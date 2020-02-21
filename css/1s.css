@@ -1,18 +1,78 @@
-
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
 html{
-
     width: auto;
     height: auto;
+    
+
+
 }
+  
+ 
 body{
-    width: 98%;
+    margin-top: 0;
+    width: 99%;
     margin-left: auto;
     margin-right: auto;
-    background:rgb(78, 91, 104);
+    background:rgb(209, 220, 233);
+    
+ 
+}
+#menudiv{
+    width: 40%;
+    height: 60px;
+    background:-webkit-linear-gradient( rgb(138, 101, 106),rgb(190, 227, 222));
+    border-radius: 0px 0px 50px 0px;
+    margin-left: -6px;
+    min-width: 430px;
+}
+#headNav ul{
+     width: 100%;
+  
+     
+}
+#headNav li{
+    display: block;
+    float: left;
+    width: 20%;
+   /*  border: 2px solid black; */
+
+    margin-left: 10px;
+    line-height:40px;
+    margin-top:10px;
+    text-align: center;
+    border-radius: 5px;
+    background:-webkit-linear-gradient(rgb(203, 219, 196) 30%,rgb(217, 206, 206) 80%,rgb(138, 85, 92) 99%);
+    background:-o-linear-gradient(rgb(143, 243, 139) 30%,rgb(192, 147, 149) 80%,rgb(138, 101, 106) 99%);
+    background:-mz-linear-gradient(rgb(143, 243, 139) 30%,rgb(192, 147, 149) 80%,rgb(162, 113, 119) 99%);
 
 }
-
-.headerImage{
-    width: 99%;
-    height: 60%;
+#headNav a{
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 400;
+    color:rgb(34, 49, 22);
+   text-shadow: rgb(24, 34, 20) 2px 2px 3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+ 
+ 
+ 
