@@ -1,12 +1,21 @@
 
 
-
+//set id to header navgation menu
 let nav = document.querySelector('nav');
 nav.setAttribute('id','headNav');
 
+// set id to background image 
 let bodyimg = document.querySelector('img');
 bodyimg.setAttribute('id','bodyimage');
 bodyimg.style.backgroundImage.repeat="no-repeat";
+
+
+
+
+
+
+
+
 
 
 /* //add paragraph
