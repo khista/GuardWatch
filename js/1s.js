@@ -4,6 +4,11 @@
 let nav = document.querySelector('nav');
 nav.setAttribute('id','headNav');
 
+let bodyimg = document.querySelector('img');
+bodyimg.setAttribute('id','bodyimage');
+bodyimg.style.backgroundImage.repeat="no-repeat";
+
+
 /* //add paragraph
 let paragraph = document.createElement('p');
 paragraph.innerHTML="Welcome to GuardWatch";
